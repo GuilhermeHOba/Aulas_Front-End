@@ -1,0 +1,41 @@
+/* 2 - Midia query */
+h1 {
+    color: red
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        color: blue;
+    } 
+}
+
+/* 3 - Min - Width */
+ p {    
+    background-color: red;
+    color: black;
+ }
+
+ @media screen and (min-width: 600px) {
+    p {
+        background-color: aqua;
+        color: black;
+    }
+ }
+
+ /* Padrão de breakpoints
+ 600px e abaixo: Celular
+ 768px até 600px: Tablets
+ 992px até 768px: Mini Laptops;
+ 922px e acima: Laptops e Desktops
+ */
+
+/* 4 -landscape */
+ h3 {
+    display: none;
+ }
+
+ @media screen and (orientation: landscape) /* and (max-width: 500px)*/ {
+    h3 {
+        display: block;
+    }
+ }
