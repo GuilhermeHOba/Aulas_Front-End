@@ -207,3 +207,17 @@ p {
 .plan .recommended {
     background-color: #aa3333;
 }
+
+/* seach domain */
+
+.searchdomain-container {
+    background-color: #34454e;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.searchdomain-container h2 {
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
