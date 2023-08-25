@@ -248,4 +248,9 @@ p {
     color: #fff;
     font-size: 24px;
     cursor: pointer;
+    opacity: 0.8;
+}
+
+.searchdomain-container input[type="submit"]:hover {
+    opacity: 1;
 }
